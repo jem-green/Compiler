@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6824A971-348A-4B5E-8F2A-BEA54A2AA5E8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompilerConsole</RootNamespace>
+    <AssemblyName>CompilerConsole</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>CompilerConsole.CompilerConsole</StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompilerConsole.cs" />
+    <Compile Include="Cradle1.cs" />
+    <Compile Include="Cradle2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cradle3.cs" />
+    <Compile Include="Cradle_part1.cs" />
+    <Compile Include="Cradle_part2.cs" />
+    <Compile Include="Cradle_part3.cs" />
+    <Compile Include="Cradle_part4.cs" />
+    <Compile Include="Cradle_part5.cs" />
+    <Compile Include="Cradle_part6.cs" />
+    <Compile Include="Cradle_part7.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TUTOR1.TXT" />
+    <None Include="TUTOR10.TXT" />
+    <None Include="TUTOR11.TXT" />
+    <None Include="TUTOR12.TXT" />
+    <None Include="TUTOR13.TXT" />
+    <None Include="TUTOR14.TXT" />
+    <None Include="TUTOR15.TXT" />
+    <None Include="TUTOR16.TXT" />
+    <None Include="TUTOR2.TXT" />
+    <None Include="TUTOR3.TXT" />
+    <None Include="TUTOR4.TXT" />
+    <None Include="TUTOR5.TXT" />
+    <None Include="TUTOR6.TXT" />
+    <None Include="TUTOR7.TXT" />
+    <None Include="TUTOR8.TXT" />
+    <None Include="TUTOR9.TXT" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
