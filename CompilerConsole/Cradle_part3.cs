@@ -368,7 +368,7 @@ namespace CompilerConsole
         //--------------------------------------------------------------}
         // Main Program
 
-        public void main()
+        public void Main()
         {
             Init();
             Expression();

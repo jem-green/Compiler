@@ -15,7 +15,7 @@ namespace CompilerConsole
             Cradle_part5 i = new Cradle_part5();
             try
             {
-                i.main();
+                i.Main();
             }
             catch (Exception e)
             {
